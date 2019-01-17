@@ -33,3 +33,21 @@ I. pipe
     (v) => `------> ${v}`,
     (v) => `======>  ${v}`,
   )('letuananh')
+  
+  
+  
+  
+function deepEqual(source, target) {
+ const keys = Object.keys(source)
+ for(let i = 0 ; i < keys.length ; i++) {
+   	const key = keys[i];
+ 	if (target[key]) {
+      if (typeof target[key] === 'object' && typeof source[key] === 'object') {
+       	return deepEqual(source[key], target[key])
+      } else if (target[key] === source[key]) {
+      	return true	
+      }
+    }
+   return false;
+ }
+}
