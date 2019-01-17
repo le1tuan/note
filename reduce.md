@@ -51,3 +51,8 @@ function deepEqual(source, target) {
    return false;
  }
 }
+
+
+
+- top : cách container bao nhiêu pixel
+- transform: translate : đơn vị phần trăm là phần trăm theo độ dài hoặc rộng của element mình transform
