@@ -1,3 +1,8 @@
+# stream va buffer
+Buffer: Chuyển dữ liệu to thành các chunk nhỏ và sử dụng đồng thời mà k cần đợi dự liệu được download hết. Ví dụ xem youtube k cần tải hết.
+Stream: 1 process of flow of data from data source to the buffer and from the buffer to the client. All these bits flow in a stream
+https://www.freecodecamp.org/news/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8/
+
 # reduce
 I. Giải thích
 - lặp qua từng phần tử của array.
