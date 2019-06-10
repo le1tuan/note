@@ -61,3 +61,4 @@ function deepEqual(source, target) {
 
 - top : cách container bao nhiêu pixel
 - transform: translate : đơn vị phần trăm là phần trăm theo độ dài hoặc rộng của element mình transform
+- override relative path of create-react-app: https://facebook.github.io/create-react-app/docs/deployment#building-for-relative-paths
